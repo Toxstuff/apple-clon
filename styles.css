@@ -1,0 +1,200 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  font-size: 10px;
+  font-family: "Apple", sans-serif;
+}
+
+a
+{
+  display: block;
+  text-decoration: none;
+}
+
+/* menu */
+
+.container
+{
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 2.2rem;
+}
+
+header
+{
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  width: 100%;
+  height: 4.4rem;
+  opacity: 0.92;
+  background-color:black;
+  backdrop-filter: blur(rem);
+}
+
+.nav-list
+{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+
+.nav-link
+{
+  font-size: 1.4rem;
+  color: #c0c0c0;
+  padding: 0 1rem;
+  transition: opacity 0.5s;
+}
+
+.nav-link:hover
+{
+  color: #ffffff;
+}
+
+.nav-link-apple
+{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("assets/icons//apple.svg") center no-repeat;
+}
+
+.nav-link-search
+{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("assets/icons//search.svg") center no-repeat;
+}
+
+.nav-link-bag
+{
+  width: 1.4rem;
+  height: 4.4rem;
+  background: url("assets/icons//bag.svg") center no-repeat;
+}
+
+/* banner-under-menu */
+
+.order
+{
+  font-size: 1.42rem;
+  padding-top: 28px;
+  padding-bottom: 0;
+  text-align: center;
+  height: 5.4rem;
+}
+
+/* (iPad-pro) */
+
+.ipad-pro
+{
+  background: url("assets/hero/ipad-pro/hero_ipad_pro_large.jpg");
+}
+
+/* (iPhone-12) */
+
+.iphone-12
+{
+  background: url("assets/hero/iphone-12/iphone_12_large.jpg");
+}
+
+/* (iMac) */
+
+.imac
+{
+  background: url("assets/hero/imac/imac_large.jpg");
+}
+
+/* item-images */
+
+.hero
+{
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid #fff;
+  border-bottom: 0.6rem solid #fff;
+}
+
+/* item-titles */
+
+.title
+{
+  color: #fff;
+  text-align: center;
+  padding-top: 88px;
+}
+
+.title-dark
+{
+  color: #000;
+}
+
+.title-heading
+{
+  font-size: 5.2rem;
+}
+
+.title-sub-heading
+{
+  font-size: 2.6rem;
+  margin-top: 0.9rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
+}
+
+.title-price
+{
+  font-size: 1.7rem;
+  color: #888;
+  margin-top: 1.88rem;
+}
+
+/* item-links */
+
+.apple
+{
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.apple-link
+{
+  color: #0070c9;
+  font-size: 2.1rem;
+  display: inline-block;
+}
+
+.apple-link-banner
+{
+  color: #0070c9;;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.apple-link:hover
+{
+  border-bottom: 2px solid #0070c9;
+}
+
+.apple-link-darker
+{
+  color: #0070c9;
+}
+
+.apple-link-darker:hover
+{
+  border-bottom-color: #0070c9;
+}
+
+
+
