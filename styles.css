@@ -1,3 +1,5 @@
+/*--------- general ---------*/
+
 *
 {
   margin: 0;
@@ -16,7 +18,7 @@ a
   text-decoration: none;
 }
 
-/* menu */
+/*--------- navigation ---------*/
 
 .container
 {
@@ -81,7 +83,7 @@ header
   background: url("assets/icons//bag.svg") center no-repeat;
 }
 
-/* banner-under-menu */
+/*--------- banner-under-navigation  ---------*/
 
 .order
 {
@@ -92,28 +94,28 @@ header
   height: 5.4rem;
 }
 
-/* (iPad-pro) */
+/*--------- (iPad-pro) ---------*/
 
 .ipad-pro
 {
   background: url("assets/hero/ipad-pro/hero_ipad_pro_large.jpg");
 }
 
-/* (iPhone-12) */
+/*--------- (iPhone-12) ---------*/
 
 .iphone-12
 {
   background: url("assets/hero/iphone-12/iphone_12_large.jpg");
 }
 
-/* (iMac) */
+/*--------- (iMac) ---------*/
 
 .imac
 {
   background: url("assets/hero/imac/imac_large.jpg");
 }
 
-/* item-images */
+/*--------- item-images ---------*/
 
 .hero
 {
@@ -125,7 +127,7 @@ header
   border-bottom: 0.6rem solid #fff;
 }
 
-/* item-titles */
+/*--------- item-titles ---------*/
 
 .title
 {
@@ -159,7 +161,7 @@ header
   margin-top: 1.88rem;
 }
 
-/* item-links */
+/*--------- item-links ---------*/
 
 .apple
 {
